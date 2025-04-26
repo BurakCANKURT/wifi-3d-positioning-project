@@ -11,6 +11,28 @@ The models applied in this project are:
 
 The system predicts the **x**, **y**, **z** coordinates using RSSI signal data, and provides model evaluation through **3D visualizations** and **feature importance analysis**.
 
+
+
+```
+## wifi-3d-positioning-project/
+├── main.py                  # Main script: runs the application and predictions
+├── position_estimation.py   # Model definitions, training, and testing logic
+├── plot/                    # Generated plots and visualizations
+│   ├── RandomForestProcess.png
+│   ├── XGBRProcess.png
+│   ├── KNNProcess.png
+│   ├── Importance_for_KNN.png
+│   └── Importance.png
+├── media/                   # Screenshots used in the README file
+│   ├── ss1.png
+│   ├── ss2.png
+│   ├── ss3.png
+│   └── ss4.png
+├── requirements.txt         # List of Python dependencies
+└── README.md                # Project description and documentation
+
+```
+
 ---
 
 ## 🎯 KNN Model and Feature Importance
@@ -37,16 +59,16 @@ The system predicts the **x**, **y**, **z** coordinates using RSSI signal data, 
 ## 🖼️ Visualization Examples
 
 ### 🌲 Random Forest Regressor Visualization:
-![Random Forest Visualization](ss1.png)
+![Random Forest Visualization](./media/ss1.png)
 
 ### 🚀 XGBoost Regressor Visualization:
-![XGBoost Visualization](ss2.png)
+![XGBoost Visualization](./media/ss2.png)
 
 ### 📍 K-Nearest Neighbors (KNN) Visualization:
-![KNN Visualization](ss3.png)
+![KNN Visualization](./media/ss3.png)
 
 ### 🏠 Project Main Menu Screenshot:
-![Project Overview](ss4.png)
+![Project Overview](./media/ss4.png)
 
 ---
 
