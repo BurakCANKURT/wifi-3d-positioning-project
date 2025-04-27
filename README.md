@@ -1,16 +1,21 @@
 
 # 📌 3D Position Estimation using WiFi Fingerprinting
 
-## 📂 Project Overview
+
+## 📌 Project Overview
+
 This project focuses on estimating **3D positions** based on WiFi fingerprinting signal strengths using machine learning models.
 
-The models applied in this project are:
+> 🎯 **Goal:** Predict the (x, y, z) coordinates of a device using RSSI data with various regression models and visualize the results.
+
+### 🧰 Models Used:
 - 🎄 **Random Forest Regressor**
 - 📍 **K-Nearest Neighbors (KNN)**
 - 🚀 **XGBoost Regressor (XGBR)**
 
-The system predicts the **x**, **y**, **z** coordinates using RSSI signal data, and provides model evaluation through **3D visualizations** and **feature importance analysis**.
-
+The system provides:
+- 📊 **Model evaluation with 3D visualizations**
+- 📌 **Feature importance analysis (when supported by the model)**  
 
 
 ```
