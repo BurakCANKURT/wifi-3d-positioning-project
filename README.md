@@ -86,6 +86,40 @@ openpyxl
 
 ---
 
+
+## 📂 Installation
+
+1. Clone the repository:
+```bash
+> git clone https://github.com/BurakCANKURT/wifi-3d-positioning-project.git
+
+> cd wifi-3d-positioning-project
+```
+
+2. (Optional but recommended) Create and activate a virtual environment:
+```bash
+> python -m venv venv
+
+# For Linux/Mac:
+source venv/bin/activate
+
+# For Windows:
+venv\Scripts\activate
+```
+
+3. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+---
+## 🚀 How to Run
+```
+> streamlit run main.py
+
+```
+
+---
 ## 🏁 Conclusion
 The KNN model was successfully implemented for multi-output regression **without feature selection** due to library limitations regarding permutation importance. The other models (Random Forest and XGBoost) were able to utilize feature importance effectively.
 
