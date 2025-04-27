@@ -129,3 +129,12 @@ pip install -r requirements.txt
 The KNN model was successfully implemented for multi-output regression **without feature selection** due to library limitations regarding permutation importance. The other models (Random Forest and XGBoost) were able to utilize feature importance effectively.
 
 This approach was documented transparently to reflect the decisions taken throughout the project.
+---
+## 📌 What I Learned
+
+- Working with **multi-output regression models** for predicting 3D positions (x, y, z coordinates) from WiFi signal data.
+- Handling model limitations such as the lack of feature importance support in KNN and understanding alternative approaches (e.g., permutation importance).
+- Comparing the performance of different regression algorithms (Random Forest, KNN, XGBoost) and selecting the most effective one based on evaluation metrics.
+- Designing a clear machine learning pipeline for model training, testing, and result visualization.
+- Building an interactive application using Streamlit to present model outputs with 3D visualizations.
+
