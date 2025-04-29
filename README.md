@@ -130,6 +130,11 @@ The KNN model was successfully implemented for multi-output regression **without
 
 This approach was documented transparently to reflect the decisions taken throughout the project.
 ---
+## 📄 Data Disclaimer:
+The datasets used in this project were provided by my university professor solely for educational purposes.
+These datasets are not publicly distributed and are used here for demonstration and academic showcase only.
+
+---
 ## 📌 What I Learned
 
 - Working with **multi-output regression models** for predicting 3D positions (x, y, z coordinates) from WiFi signal data.
@@ -137,4 +142,4 @@ This approach was documented transparently to reflect the decisions taken throug
 - Comparing the performance of different regression algorithms (Random Forest, KNN, XGBoost) and selecting the most effective one based on evaluation metrics.
 - Designing a clear machine learning pipeline for model training, testing, and result visualization.
 - Building an interactive application using Streamlit to present model outputs with 3D visualizations.
-
+---
